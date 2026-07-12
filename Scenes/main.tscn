@@ -1,0 +1,53 @@
+[gd_scene format=3 uid="uid://ca7w84g3a1jo0"]
+
+[ext_resource type="Texture2D" uid="uid://kdt3oqmjcddo" path="res://Assets/Art/craftpix-net-139108-free-1-bit-graveyard-pixel-art-backgrounds/background 2/1.png" id="1_21xkr"]
+[ext_resource type="Texture2D" uid="uid://dr6mtxn7xh16o" path="res://Assets/Art/craftpix-net-139108-free-1-bit-graveyard-pixel-art-backgrounds/background 2/2.png" id="2_6bp64"]
+[ext_resource type="Texture2D" uid="uid://d1lo70jgxpqlr" path="res://Assets/Art/craftpix-net-139108-free-1-bit-graveyard-pixel-art-backgrounds/background 2/3.png" id="3_344ge"]
+[ext_resource type="Texture2D" uid="uid://i1emr1mjbdhb" path="res://Assets/Art/craftpix-net-139108-free-1-bit-graveyard-pixel-art-backgrounds/background 2/4.png" id="4_ynf5e"]
+[ext_resource type="Texture2D" uid="uid://c33e8v38uciqr" path="res://Assets/Art/craftpix-net-139108-free-1-bit-graveyard-pixel-art-backgrounds/background 2/5.png" id="5_hptm8"]
+[ext_resource type="Texture2D" uid="uid://brv5cp03usjww" path="res://Assets/Art/craftpix-net-139108-free-1-bit-graveyard-pixel-art-backgrounds/background 2/6.png" id="6_d1ilt"]
+
+[node name="Main" type="Node" unique_id=1237951240]
+
+[node name="Layer1Sky" type="Parallax2D" parent="." unique_id=980873392]
+
+[node name="Sprite2D" type="Sprite2D" parent="Layer1Sky" unique_id=1804371484]
+scale = Vector2(2, 2)
+texture = ExtResource("1_21xkr")
+centered = false
+
+[node name="Layer2Clouds" type="Parallax2D" parent="." unique_id=1455527451]
+
+[node name="Sprite2D" type="Sprite2D" parent="Layer2Clouds" unique_id=1235571735]
+scale = Vector2(2, 2)
+texture = ExtResource("2_6bp64")
+centered = false
+
+[node name="Layer3Trees" type="Parallax2D" parent="." unique_id=1880458455]
+
+[node name="Sprite2D" type="Sprite2D" parent="Layer3Trees" unique_id=428497158]
+scale = Vector2(2, 2)
+texture = ExtResource("3_344ge")
+centered = false
+
+[node name="Layer4Building" type="Parallax2D" parent="." unique_id=530233311]
+
+[node name="Sprite2D" type="Sprite2D" parent="Layer4Building" unique_id=1493165298]
+scale = Vector2(2, 2)
+texture = ExtResource("4_ynf5e")
+centered = false
+
+[node name="Layer5Graves" type="Parallax2D" parent="." unique_id=627084863]
+
+[node name="Sprite2D" type="Sprite2D" parent="Layer5Graves" unique_id=196217021]
+scale = Vector2(2, 2)
+texture = ExtResource("5_hptm8")
+centered = false
+
+[node name="Layer6Foreground" type="Parallax2D" parent="." unique_id=109300192]
+scale = Vector2(1.0036756, 1)
+
+[node name="Sprite2D" type="Sprite2D" parent="Layer6Foreground" unique_id=1977833490]
+scale = Vector2(2, 2)
+texture = ExtResource("6_d1ilt")
+centered = false
