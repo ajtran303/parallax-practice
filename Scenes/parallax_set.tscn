@@ -1,0 +1,61 @@
+[gd_scene format=3 uid="uid://b7g7at8pxclpg"]
+
+[ext_resource type="Script" uid="uid://cwcqrxxw2dwv0" path="res://Scripts/parallax_set.gd" id="1_6jfpi"]
+
+[node name="ParallaxSet" type="Node2D" unique_id=288819921]
+script = ExtResource("1_6jfpi")
+
+[node name="Layer1" type="Parallax2D" parent="." unique_id=807953252]
+scroll_scale = Vector2(0.1, 0)
+repeat_size = Vector2(1152, 0)
+autoscroll = Vector2(-20, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="Layer1" unique_id=1569522499]
+scale = Vector2(2, 2)
+centered = false
+
+[node name="Layer2" type="Parallax2D" parent="." unique_id=1880312887]
+scroll_scale = Vector2(0.25, 0)
+repeat_size = Vector2(1152, 0)
+autoscroll = Vector2(-40, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="Layer2" unique_id=1288476500]
+scale = Vector2(2, 2)
+centered = false
+
+[node name="Layer3" type="Parallax2D" parent="." unique_id=67114775]
+scroll_scale = Vector2(0.4, 0)
+repeat_size = Vector2(1152, 0)
+autoscroll = Vector2(-60, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="Layer3" unique_id=1577783629]
+scale = Vector2(2, 2)
+centered = false
+
+[node name="Layer4" type="Parallax2D" parent="." unique_id=1454937462]
+scroll_scale = Vector2(0.55, 0)
+repeat_size = Vector2(1152, 0)
+autoscroll = Vector2(-100, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="Layer4" unique_id=817958451]
+scale = Vector2(2, 2)
+centered = false
+
+[node name="Layer5" type="Parallax2D" parent="." unique_id=956206734]
+scroll_scale = Vector2(0.7, 0)
+repeat_size = Vector2(1152, 0)
+autoscroll = Vector2(-160, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="Layer5" unique_id=1155078036]
+scale = Vector2(2, 2)
+centered = false
+
+[node name="Layer6" type="Parallax2D" parent="." unique_id=551880327]
+scale = Vector2(1.0012032, 1)
+scroll_scale = Vector2(0.85, 0)
+repeat_size = Vector2(1152, 0)
+autoscroll = Vector2(-260, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="Layer6" unique_id=1334821452]
+scale = Vector2(2, 2)
+centered = false
