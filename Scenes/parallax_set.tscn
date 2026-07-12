@@ -59,3 +59,13 @@ autoscroll = Vector2(-260, 0)
 [node name="Sprite2D" type="Sprite2D" parent="Layer6" unique_id=1334821452]
 scale = Vector2(2, 2)
 centered = false
+
+[node name="Layer7" type="Parallax2D" parent="." unique_id=836093305]
+scale = Vector2(1.0012032, 1)
+scroll_scale = Vector2(0.85, 0)
+repeat_size = Vector2(1152, 0)
+autoscroll = Vector2(-420, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="Layer7" unique_id=716297111]
+scale = Vector2(2, 2)
+centered = false

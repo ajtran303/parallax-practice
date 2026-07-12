@@ -6,6 +6,7 @@ extends Node2D
 @export var layer_4: Texture2D
 @export var layer_5: Texture2D
 @export var layer_6: Texture2D
+@export var layer_7: Texture2D
 
 
 func _ready() -> void:
@@ -15,7 +16,7 @@ func _ready() -> void:
 	$Layer4/Sprite2D.texture = layer_4
 	$Layer5/Sprite2D.texture = layer_5
 	$Layer6/Sprite2D.texture = layer_6
-
+	$Layer7/Sprite2D.texture = layer_7
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
