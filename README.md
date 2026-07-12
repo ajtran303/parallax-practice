@@ -10,7 +10,7 @@ Open `project.godot` in Godot 4.7 and run the project. The main menu lists four 
 
 ## Structure
 
-- `Scenes/main.tscn` / `Scenes/main_menu.tscn` — entry point and level picker.
+- `Scenes/main_menu.tscn` — entry point and level picker.
 - `Scenes/parallax_set.tscn` + `Scripts/parallax_set.gd` — reusable scene with seven `ParallaxLayer` slots. Each level scene instances it and assigns its own `layer_1`–`layer_7` textures.
 - `Scenes/Levels/` — the four levels: foreground trees, iron gate, twisted trees, winter trees.
 - `Scenes/UI/` — level select button and in-level exit button, each with a matching script.
