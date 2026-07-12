@@ -1,0 +1,108 @@
+[gd_scene format=3 uid="uid://3y1wcfug10s"]
+
+[ext_resource type="PackedScene" uid="uid://ckn824333uhjn" path="res://Scenes/UI/level_button.tscn" id="1_28flt"]
+[ext_resource type="Texture2D" uid="uid://cm35icncic73y" path="res://Assets/Art/craftpix-net-139108-free-1-bit-graveyard-pixel-art-backgrounds/background 4/orig.png" id="2_n45e2"]
+[ext_resource type="Texture2D" uid="uid://bpogbo2tw0043" path="res://Assets/Art/craftpix-net-139108-free-1-bit-graveyard-pixel-art-backgrounds/background 3/orig.png" id="3_opfnp"]
+[ext_resource type="Texture2D" uid="uid://cwotcpruajy5m" path="res://Assets/Art/craftpix-net-139108-free-1-bit-graveyard-pixel-art-backgrounds/background 2/orig.png" id="4_cp0ys"]
+[ext_resource type="Texture2D" uid="uid://bp63wg7lq7sfc" path="res://Assets/Art/craftpix-net-139108-free-1-bit-graveyard-pixel-art-backgrounds/background 1/orig.png" id="5_yhxw7"]
+
+[node name="MainMenu" type="Control" unique_id=238396606]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="." unique_id=522153893]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -473.5
+offset_top = 8.0
+offset_right = 474.5
+offset_bottom = 96.0
+grow_horizontal = 2
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 10
+theme_override_font_sizes/font_size = 64
+text = "1-Bit Graveyard Parallax Demos"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label2" type="Label" parent="." unique_id=18530269]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -473.0
+offset_top = 64.0
+offset_right = 475.0
+offset_bottom = 157.0
+grow_horizontal = 2
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 10
+theme_override_font_sizes/font_size = 32
+text = "Sev N"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label3" type="Label" parent="." unique_id=892454351]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -474.0
+offset_top = -77.0
+offset_right = 474.0
+offset_bottom = 16.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 10
+theme_override_font_sizes/font_size = 24
+text = "Assets from craftpix.net"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="GridContainer" type="GridContainer" parent="." unique_id=1793146953]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -386.0
+offset_top = -178.0
+offset_right = 386.0
+offset_bottom = 258.0
+grow_horizontal = 2
+grow_vertical = 2
+columns = 2
+
+[node name="ForegroundTrees" parent="GridContainer" unique_id=871632337 instance=ExtResource("1_28flt")]
+layout_mode = 2
+level_scene_path = "res://Scenes/Levels/level_foreground_trees.tscn"
+thumbnail = ExtResource("2_n45e2")
+label = "Foreground Trees"
+
+[node name="IronGate" parent="GridContainer" unique_id=666837912 instance=ExtResource("1_28flt")]
+layout_mode = 2
+level_scene_path = "res://Scenes/Levels/level_iron_gate.tscn"
+thumbnail = ExtResource("3_opfnp")
+label = "Iron Gate"
+
+[node name="TwistedTrees" parent="GridContainer" unique_id=249573532 instance=ExtResource("1_28flt")]
+layout_mode = 2
+level_scene_path = "res://Scenes/Levels/level_twisted_trees.tscn"
+thumbnail = ExtResource("4_cp0ys")
+label = "Twisted Trees"
+
+[node name="WinterTrees" parent="GridContainer" unique_id=1124517139 instance=ExtResource("1_28flt")]
+layout_mode = 2
+level_scene_path = "res://Scenes/Levels/level_winter_trees.tscn"
+thumbnail = ExtResource("5_yhxw7")
+label = "Winter Trees"

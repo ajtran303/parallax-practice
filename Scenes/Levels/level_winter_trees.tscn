@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://ww2omuv5xmo"]
+
+[ext_resource type="PackedScene" uid="uid://b7g7at8pxclpg" path="res://Scenes/parallax_set.tscn" id="1_muoyd"]
+[ext_resource type="Texture2D" uid="uid://bvjaxa5ctyejh" path="res://Assets/Art/craftpix-net-139108-free-1-bit-graveyard-pixel-art-backgrounds/background 1/1.png" id="2_15wjo"]
+[ext_resource type="Texture2D" uid="uid://dp1kycihgrmg0" path="res://Assets/Art/craftpix-net-139108-free-1-bit-graveyard-pixel-art-backgrounds/background 1/2.png" id="3_alpy5"]
+[ext_resource type="Texture2D" uid="uid://dhjq7xblstomg" path="res://Assets/Art/craftpix-net-139108-free-1-bit-graveyard-pixel-art-backgrounds/background 1/3.png" id="4_1tpfy"]
+[ext_resource type="Texture2D" uid="uid://b320aylm0yr5q" path="res://Assets/Art/craftpix-net-139108-free-1-bit-graveyard-pixel-art-backgrounds/background 1/4.png" id="5_o6bmw"]
+[ext_resource type="PackedScene" uid="uid://62bkk5qjrsks" path="res://Scenes/UI/exit_button.tscn" id="6_15wjo"]
+
+[node name="LevelWinterTrees" type="Node2D" unique_id=1022153338]
+
+[node name="WinterTrees" parent="." unique_id=288819921 instance=ExtResource("1_muoyd")]
+layer_1 = ExtResource("2_15wjo")
+layer_2 = ExtResource("3_alpy5")
+layer_3 = ExtResource("4_1tpfy")
+layer_4 = ExtResource("5_o6bmw")
+
+[node name="ExitButton" parent="." unique_id=1899119377 instance=ExtResource("6_15wjo")]

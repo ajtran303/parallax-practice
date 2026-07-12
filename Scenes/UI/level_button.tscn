@@ -1,0 +1,37 @@
+[gd_scene format=3 uid="uid://ckn824333uhjn"]
+
+[ext_resource type="Script" uid="uid://olcve5xepexs" path="res://Scripts/UI/level_button.gd" id="1_3abql"]
+
+[node name="LevelButton" type="Button" unique_id=871632337]
+custom_minimum_size = Vector2(384, 216)
+expand_icon = true
+script = ExtResource("1_3abql")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1412209710]
+clip_contents = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+expand_mode = 1
+stretch_mode = 6
+
+[node name="Label" type="Label" parent="." unique_id=1717128419]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -20.0
+offset_top = 24.0
+offset_right = 20.0
+offset_bottom = 58.0
+grow_horizontal = 2
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 10
+theme_override_font_sizes/font_size = 24
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[connection signal="pressed" from="." to="." method="_on_pressed"]

@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://bwgt6l55u2edu"]
+
+[ext_resource type="PackedScene" uid="uid://b7g7at8pxclpg" path="res://Scenes/parallax_set.tscn" id="1_ksw82"]
+[ext_resource type="Texture2D" uid="uid://kdt3oqmjcddo" path="res://Assets/Art/craftpix-net-139108-free-1-bit-graveyard-pixel-art-backgrounds/background 2/1.png" id="2_10cn7"]
+[ext_resource type="Texture2D" uid="uid://dr6mtxn7xh16o" path="res://Assets/Art/craftpix-net-139108-free-1-bit-graveyard-pixel-art-backgrounds/background 2/2.png" id="3_j1djf"]
+[ext_resource type="Texture2D" uid="uid://d1lo70jgxpqlr" path="res://Assets/Art/craftpix-net-139108-free-1-bit-graveyard-pixel-art-backgrounds/background 2/3.png" id="4_ocnem"]
+[ext_resource type="Texture2D" uid="uid://i1emr1mjbdhb" path="res://Assets/Art/craftpix-net-139108-free-1-bit-graveyard-pixel-art-backgrounds/background 2/4.png" id="5_m1cb7"]
+[ext_resource type="Texture2D" uid="uid://c33e8v38uciqr" path="res://Assets/Art/craftpix-net-139108-free-1-bit-graveyard-pixel-art-backgrounds/background 2/5.png" id="6_oo7jg"]
+[ext_resource type="Texture2D" uid="uid://brv5cp03usjww" path="res://Assets/Art/craftpix-net-139108-free-1-bit-graveyard-pixel-art-backgrounds/background 2/6.png" id="7_he4d4"]
+[ext_resource type="PackedScene" uid="uid://62bkk5qjrsks" path="res://Scenes/UI/exit_button.tscn" id="8_10cn7"]
+
+[node name="LevelTwistedTrees" type="Node2D" unique_id=908266613]
+
+[node name="TwistedTrees" parent="." unique_id=288819921 instance=ExtResource("1_ksw82")]
+layer_1 = ExtResource("2_10cn7")
+layer_2 = ExtResource("3_j1djf")
+layer_3 = ExtResource("4_ocnem")
+layer_4 = ExtResource("5_m1cb7")
+layer_5 = ExtResource("6_oo7jg")
+layer_6 = ExtResource("7_he4d4")
+
+[node name="ExitButton" parent="." unique_id=1899119377 instance=ExtResource("8_10cn7")]
